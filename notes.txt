@@ -1,0 +1,31 @@
+- Navbar at the top
+- Color Scheme:
+    - Red/Grey
+    - White Background
+    - Font Suite - go through google fonts
+
+- Home Page
+    - key details
+    - event info
+
+- Sponsors
+
+- About
+
+- Location:
+    - first event where communities come together, has 9
+    - all at civic park center
+
+
+- Community Marketplace
+
+- Navbar items:
+    - vendors
+    - artists
+    - Sponsors
+    - contact us
+    - About
+    - home
+
+-Footer:
+    -Location Link
