@@ -157,13 +157,17 @@
     background-image: linear-gradient(rgba(231, 134, 69, 0.685), rgba(240, 113, 28, 0.685));
 }
 
+.sticky-nav {
+    position: sticky !important;
+    top: 0;
+}
+
 .body-content {
     display: flex;
     justify-content: center;
     flex-direction: column;
     max-width: 92%;
     min-width: 92%;
-    min-height: 100%;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 0;
