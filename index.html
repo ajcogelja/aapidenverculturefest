@@ -11,54 +11,40 @@
   </head>
   <body class="bg-primary-col page-body">
     <div id="vertical-nav">
-        <div class="open-nav-bar-container">
-                <span class="material-symbols-outlined material-symbols-menu-btn open-nav-bar-btn" data-bs-toggle="offcanvas" href="#verticalNavBar" role="button" aria-controls="verticalNavBar">
-                    menu
-                </span>
-        </div>
-        <div id="collapsible-bar">
-              <div class="offcanvas offcanvas-start nav-bar-dim " tabindex="-1" id="verticalNavBar" aria-labelledby="verticalNavBarLabel">
-                <div class="offcanvas-header nav-bar-header-bg-col nav-bar-header">
-                    <div class="nav-bar-header-size  nav-bar-header-border nav-bar-container">
-                        <h4 class="offcanvas-title nav-bar-vertical-orient nav-bar-menu-text" id="verticalNavBarLabel">Menu</h4>
-                        <button type="button" class="btn-close nav-bar-close-btn nav-bar-vertical-orient" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                </div>
-                <div class="offcanvas-body nav-bar-body bg-secondary-col">
-                    <div id="menuOptions">
-                        <ul class="menu-style">
-                            <li class="active-menu-item">
-                                <a class="menu-option">
-                                    Home
-                                </a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="details.html" class="menu-option">
-                                    Event Details
-                                </a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="join.html" class="menu-option">
-                                    Get Involved
-                                </a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="about.html" class="menu-option">
-                                    About Us
-                                </a>
-                            </li>
-                          </ul>
-                    </div>
-
-                </div>
+        <nav class="navbar position-sticky navbar-expand-lg nav-bar-bg-col border-bottom border-body">
+            <div class="container-fluid position-sticky">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="logo" href="#">
+                <img src="assets/AAPICF2024-white.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top nav-bar-logo">
+              </a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-bar-content">
+                  <li class="nav-item nav-bar-item">
+                    <a class="nav-link active nav-bar-txt-col" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item nav-bar-item">
+                    <a class="nav-link nav-bar-txt-col" href="#">Event Details</a>
+                  </li>
+                  <li class="nav-item nav-bar-item">
+                    <a class="nav-link nav-bar-txt-col" href="#">Vendors</a>
+                  </li>
+                  <li class="nav-item nav-bar-item">
+                    <a class="nav-link nav-bar-txt-col" href="#">Sponsors</a>
+                  </li>
+                  <li class="nav-item nav-bar-item">
+                    <a class="nav-link nav-bar-txt-col" href="#">Artists</a>
+                  </li>
+                  <li class="nav-item nav-bar-item">
+                    <a class="nav-link nav-bar-txt-col" href="#">About Us</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
-
+          </nav>
     </div>
     <div>
-        <div class="body-heading">
-            <span class="body-heading-text">Denver AAPI Culture Fest</span>
-        </div>
         <div class="body-content">
             <div id="sectionOne" class="home-page-section">
                 <span class="home-page-section-content section-text">When and Where?</span>
@@ -78,5 +64,8 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <div id="footer">
+
+    </div>
 </body>
 </html>
