@@ -43,7 +43,7 @@
 
 .section-one-box {
     min-height: clamp(120px, 120px, 160px);
-    padding: 20px !important;
+    padding: 16px !important;
     min-width: fit-content;
     max-width: max-content;
     background-color: #F4F0EC;
