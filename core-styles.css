@@ -42,35 +42,157 @@
 }
 
 .section-one-box {
-    min-height: clamp(120px, 120px, 160px);
-    padding: 16px !important;
+    min-height: clamp(140px, 160px, 180px);
+    padding: 20px !important;
     min-width: fit-content;
     max-width: max-content;
     background-color: #F4F0EC;
     position: relative;
-    left: 20%;
-    top: -950px;
+    left: calc(70% - 200px);
+    top: -650px;
     z-index: 2 !important;
-    border-radius: 32px;
+    border-radius: 16px;
     border-style: solid;
     border-color: #D9D9D9;
-    border-width: calc(2px, 4px, 8px);
+    border-width: calc(2px, 2px, 4px);
+}
+.section-two-box-img {
+    min-height: 404px;
+    min-width: 300px;
+    background-size: cover;
+    background-image: url("assets/Kang_Stephanie_03 - Stephanie Kang.jpg");
+    float: left;
+    margin-right: clamp(20px, 36px, 48px);
 }
 
-.section-one-txt {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+.section-two-box {
+    min-height: clamp(100px, 120px, 120px);
+    padding: 20px !important;
+    margin-top: 40px;
+    position: relative;
+    min-width: fit-content;
+    max-width: max-content;
+    background-color: #f4f0ec00;
+    background-clip: no-clip;
+    z-index: 2 !important;
+    border-radius: 12px;
+    border-width: clamp(2px, 4px, 8px);
+    border-color: #D9D9D9;
+    border-style: solid;
 }
 
-.temp {
-    min-width: 100%;
-    min-height: 1px;
-    max-width: 1px;
-    margin: 0;
-    padding: 0;
-    z-index: 1;
+.section-three-box {
+    min-height: clamp(100px, 120px, 120px);
+    min-width: 500px;
+    max-width: 600px;
+    padding: 20px !important;
+    margin-top: 40px;
+    position: relative;
+    left: -20%;
+    top: -200px;
+    background-color: #d4d4d4;
+    z-index: 2 !important;
+    border-radius: 12px;
+    border-width: clamp(2px, 4px, 8px);
+    border-color: #D9D9D9;
+    border-style: solid;
 }
+
+.section-four-box {
+    min-height: clamp(100px, 120px, 120px);
+    min-width: 600px;
+    max-width: 800px;
+    padding: 20px !important;
+    margin-top: 40px;
+    position: relative;
+    left: 10%;
+    top: -200px;
+    background-color: #d4d4d4;
+    z-index: 2 !important;
+    border-radius: 12px;
+    border-width: clamp(2px, 4px, 8px);
+    border-color: #D9D9D9;
+    border-style: solid;
+}
+
+.section-five-box {
+    min-height: clamp(100px, 120px, 120px);
+    min-width: 600px;
+    max-width: 800px;
+    padding: 20px !important;
+    margin-top: 40px;
+    position: relative;
+    left: 10%;
+    top: -200px;
+    background-color: #d4d4d4;
+    z-index: 2 !important;
+    border-radius: 12px;
+    border-width: clamp(2px, 4px, 8px);
+    border-color: #D9D9D9;
+    border-style: solid;
+}
+
+.section-two-important {
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.section-box-txt {
+    text-align: left;
+}
+
+.section-three-box-txt {
+    text-align: left;
+    text-wrap: pretty;
+    margin-bottom: 20px;
+}
+
+.section-three-link {
+    text-align: left;
+    margin-top: 20px;
+}
+.section-three-link:hover {
+    text-decoration: underline;
+    cursor:grab;
+}
+
+.section-four-box-txt {
+    text-align: left;
+    text-wrap: pretty;
+    margin-bottom: 20px;
+}
+
+.section-four-link {
+    text-align: left;
+    margin-top: 20px;
+}
+.section-four-link:hover {
+    text-decoration: underline;
+    cursor:grab;
+}
+
+
+.section-five-box-txt {
+    text-align: left;
+    text-wrap: pretty;
+    margin-bottom: 20px;
+}
+
+.section-five-link {
+    text-align: left;
+    margin-top: 20px;
+}
+.section-five-link:hover {
+    text-decoration: underline;
+    cursor:grab;
+}
+
+
+.section-txt-link {
+    margin-top: clamp(8px, 12px, 12px);
+    margin-bottom: clamp(4px, 8px, 18px);
+}
+
 
 .image-one {
     overflow: visible;
@@ -102,6 +224,7 @@
 .section-box-txt {
     white-space: nowrap;
     display: inline-block;
+    margin-bottom: clamp(4px, 8px, 12px);
 }
 
 .nav-bar-active-item {
@@ -128,8 +251,6 @@
     font-weight: 300;
     font-style: normal;
 }  
-  
-
 
 .logo {
     overflow: visible;
@@ -191,18 +312,6 @@
 
 .page-body {
     min-height: 100% !important;
-}
-
-.menu-style {
-    list-style-type:none;
-    min-width: 100%;
-    padding-left: clamp(4px, 8px, 16px);
-}
-
-.menu-option {
-    font-size: larger;
-    color: black;
-    text-decoration: none;
 }
 
 
@@ -272,7 +381,118 @@
     z-index: 2;
 }
 
+.section-2 {
+    position: relative;
+    top: -240px;
+    min-width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: clamp(20px, 40px, 60px);
+    padding-bottom: clamp(120px, 140px, 160px);
+
+
+}
+
+.section-3 {
+    position: relative;
+    top: -240px;
+    min-width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section-4 {
+    position: relative;
+    top: -240px;
+    min-width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section-5 {
+    position: relative;
+    top: -240px;
+    min-width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .home-page-section-content {
     margin-left: auto;
     margin-right: auto;
+    min-width: 100%;
+    text-align: center;
+
+}
+
+.section-header {
+    max-height: clamp(24px, 32px, 48px);
+    font-size: clamp(48px, 64px, 72px);
+}
+
+.section-three-header {
+    position: relative;
+    top: -580px !important;
+    text-shadow: -1px -1px 0 #d4d4d4, 1px -1px 0 #d4d4d4, -1px 1px 0 #d4d4d4, 1px 1px 0 #d4d4d4;  
+}
+
+.test-shadow {
+    text-shadow: -1px -1px 0 #fdfdfd, 1px -1px 0 #fdfdfd, -1px 1px 0 #fdfdfd, 1px 1px 0 #fdfdfd;
+
+}
+
+.section-three-image {
+    min-width: 100%;
+    min-height: 1015px;
+    background-position: center 0;
+    background-image: url("assets/Tsutsui_Akemi_03.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 1 !important;
+}
+
+.section-four-image {
+    min-width: 100%;
+    min-height: 1000px;
+    background-position: center 0;
+    background-image: url("assets/Zen_Kate_03\ -\ Kaitlin\ Zhang.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+    z-index: 1 !important;
+}
+
+.section-five-image {
+    min-width: 100%;
+    min-height: 1000px;
+    background-position: center 0;
+    background-image: url("assets/clem-onojeghuo-wiyl0_FGGKo-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1 !important;
+}
+
+.page-footer {
+    background-color: #040404;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-sponsors {
+    display: flex;
+    flex-direction: row;
 }
